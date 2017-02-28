@@ -1,0 +1,10 @@
+# SSH conf for aliases
+
+Host stage
+    HostName app.us.stage-pipeline.dev.4finance.net
+    User user
+
+Host test 
+    HostName app.us.test-pipeline.dev.4finance.net
+    User user
+
