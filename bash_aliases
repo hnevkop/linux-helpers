@@ -13,6 +13,10 @@ alias c='clear'
 alias now='date +"%T"'
 
 
+#local naviagtion
+alias repo='cd ~/projects'
+
+
 #files
 alias ls='ls --color=auto'
 alias lt='ls -alrt'
@@ -20,11 +24,23 @@ alias mkdir='mkdir -pv'
 alias cp='cp -iv'      # interactive
 alias rm='rm -ri'      # interactive
 alias mv='mv -iv'       # interactive, verbose
-alias s='less' 
+alias s='less'
 
 # GIT
 alias gtl='git log'
 alias gts='git status'
-alias gtd='git diff'
-alias gtk='gitk --all&'
-alias gta='git add .'
+alias gtk='gitk&'
+alias gtba='git branch -a'
+alias gtb='git branch'
+alias gtp='git pull'
+alias gtr='git reset --hard'
+
+
+#vpn
+alias vpnup='nmcli con up id "4F"'
+alias vpndown='nmcli con down id "4F"'
+
+
+#network
+alias netstart='sudo service networking restart'
+
